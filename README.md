@@ -22,3 +22,17 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Modified Code
+==================
+- Added the following code to each gutenburg HTML file beneath the `<style>` tag:
+
+```css
+<link type="text/css" rel="stylesheet" href="gutenburg.css"/>
+```
+
+
+Resources
+==================
+- Gutenburg HTML files: http://www.gutenberg.org/browse/scores/top
+- Background Image: https://www.toptal.com/designers/subtlepatterns/vintage-concrete/
+- Box Shadow: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html

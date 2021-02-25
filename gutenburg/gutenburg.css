@@ -1,0 +1,39 @@
+body {
+    font-family:'Franklin Gothic Medium', serif;
+    /* font-style: italic; */
+    background-image: url("images/vintage-concrete.png");
+}
+
+h1, h2, h3, h4, h5 {
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h3, h4, h5 {
+    font-style: italic;
+}
+
+p {
+    font-family:'Baskerville', serif;
+    font-size: 1em;
+}
+
+a:link, a:visited {
+    color: #995521;
+}
+
+a:hover {
+    color: #CE2900;
+}
+
+img {
+    max-width: 20em;
+    border-radius: 2px;
+    border: 0.25em solid #4B3C21;
+    box-shadow: 0px 0px 15px #4B3C21;
+}
+
+pre {
+
+}
