@@ -27,6 +27,13 @@ body {
     margin: auto;
 }
 
+.header {
+    padding: 30px;
+    background-color:#f9f9f9;
+    text-align: center;
+    color: black;
+}
+
 .main {
     padding: 20px;
     flex: 75%;
@@ -43,7 +50,7 @@ body {
 }
 
 .sidebar {
-    background-color:#f0f0f0;
+    background-color:#f9f9f9;
     padding: 10px;
     flex: 25%;
 }
@@ -72,11 +79,9 @@ h2 {
 .navbar {
     display: flex;
     margin: auto;
-    flex-direction: column;
+    
 }
 
-/* Vertical Navbar */
-/* https://www.w3schools.com/howto/howto_css_vertical_menu.asp */
 .navbar a {
     color: black;
     padding: 14px 20px;
