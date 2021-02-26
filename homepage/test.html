@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', arial;
+    max-width:1200px;
+    margin: auto;
+}
+
+/* see link */
+.flex {
+  display: flex;
+  flex-direction: row;
+  /* font-size: 30px; */
+  /* text-align: center; */
+
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+.main {
+    background-image: url('https://lh3.googleusercontent.com/proxy/hWBpI6BrzIQGkFFYrm2fWZ8eWjVorSjYcHfmkmE_DmtLz7YENDnviC2VFJefp9x0CN-DCo5sdRV8S1NFK_bORTA');
+  padding: 20px;
+  flex: 70%;
+}
+
+.sidebar {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 30%;
+}
+
+.header {
+	background-image: url("http://www.geocities.ws/heather_32087/background6.gif")
+}
+
+.header > h1 {
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(to right,#eeff41, #f9a825, #ef5350, #7e57c2, #2196f3, #43a047);
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+h1 {
+  font-size: 5em;
+  padding: 0px;
+    line-height: 100%;
+    margin: 10px;
+}
+
+#rss-icon {
+  max-width:0.5em;
+}
+
+.navbar {
+  display: flex;
+  margin: auto;
+  /*https://www.color-hex.com/color-palette/78991*/
+  background: linear-gradient(to bottom, #fbd808,#ff9005,#f9530b);
+}
+
+.navbar a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  position:relative;
+  justify-content: center;
+  margin: auto;
+}
+
+.navbar a:hover {
+  background-color: gold;
+  color: blue;
+}
+
+.navbar span {
+  background-color: gold;
+}
+
+#intro {
+ padding: 0.5em;
+ text-align: center;
+ border-radius: 1em;
+ padding: 20px;
+ background-image: url('https://i.pinimg.com/originals/f0/b9/10/f0b91029178fb89820e330ae0d9b466a.gif');
+}
+
+/*https://stackoverflow.com/questions/16597304/background-color-for-text-only*/
+#intro > span {
+ background-color: #ff69f9;
+}
+
+#cat {
+  max-width: 5em;
+}
+
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Raymond Sarinas <img id="rss-icon" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Feed-icon.svg/1200px-Feed-icon.svg.png"/></h1>
+        
+        <!-- Navigation Bar -->
+      <div class="navbar">
+        <a href="#"><span>About Me</span></a>
+        <a href="#"><span>Work Experience</span></a>
+        <a href="#"><span>Important Points</span></a>
+        <a href="#"><span>What I Have to Offer</span></a>
+      </div>
+      </div>
+
+
+<div class="flex">
+  <div class="main">
+    <h3 id="intro"><span>Hello World!!!</span></h3>
+    <img id="cat" src="https://i.pinimg.com/originals/10/d9/63/10d9631abb9778072c1da264a6d4709a.png"</>
+    
+    <h2 id="work-experience">Work Experience</h2>
+    <ul id="experience-list">
+                  <li><b>QA Engineer @ RWDI Air Inc.</b></li>
+                      <ul>
+                          <li>Performed quality assurance and control for various meteorological and wind engineering software services</li>
+                          <li>Developed and executed test plans; wrote and maintained automated unit tests and regression tests</li>
+                          <li>Researched, developed, and evaluated the applicability of proof of concepts for different wind engineering services</li>
+                      </ul>
+                  <li><b>Software Engineer @ General Dynamics Mission Systems Canada</b></li>
+                  <ul>
+                      <li>Developed and modified production code for a DNS implementation of a tactical communications system</li>
+                      <li>Worked on an Agile development team participating in Scrum events, utilizing TDD for software design</li>
+                      <li>Assisted in developing, executing, investigating and documenting manual and automated test cases</li>
+                  </ul>
+              </ul>
+    <br>
+    
+    <h2 id="offer">What I Have to Offer</h2>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+  
+  <div class="sidebar">
+    <!-- <h2 id="about-me">About Me</h2> -->
+    <img id="face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQriyQeRfDE8Nq7MkQBq9zbe4tf45eAlrmmWg&usqp=CAU"></>
+    <p>Hi, I'm Raymond! I'm a computer engineering student at the University of Alberta graduating this Spring looking for full-time work!</p>
+    
+    <h3 id="important-points">Important Points</h3>
+    <ul>
+    <li>Likes to eat ice cream</li>
+    <li>Likes to have fun and learn</li>
+    <li>Willing to relocate</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

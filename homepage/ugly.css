@@ -1,0 +1,126 @@
+/* Import font */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+
+/* CSS Flexbox - 2 Column Container(s) */
+/* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+body {
+    font-family: 'Comic Sans MS', arial;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url('./bodybg.jpg');
+}
+
+.main {
+    background-image: url('./sky.jpg');
+    padding: 20px;
+    flex: 75%;
+}
+
+.main>b {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.sidebar {
+    background-color:lawngreen;
+    padding: 10px;
+    flex: 25%;
+}
+
+.header {
+    background-image: url("./headerbg.gif")
+}
+
+/* Rainbow Gradient Text */
+/* https://stackoverflow.com/a/40558020 */
+.header h1 {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #eeff41, #f9a825, #ef5350, #7e57c2, #2196f3, #43a047);
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 0px;
+    line-height: 100%;
+    margin: 10px;
+}
+
+#rss-icon {
+    max-width: 0.5em;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    background: linear-gradient(to bottom, #fbd808, #ff9005, #f9530b);
+}
+
+/* How to center navbar links */
+/* https://stackoverflow.com/questions/25294556/css-center-nav-bar-links */
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar a:hover {
+    background-color: gold;
+    color: blue;
+}
+
+/* Background color for text (i.e., like highlighting) */
+/* https://stackoverflow.com/questions/16597304/background-color-for-text-only */
+.navbar span {
+    background-color: gold;
+}
+
+#intro {
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 2em;
+}
+
+#intro span {
+    background-color: #ff69f9;
+}
+
+img {
+    max-width:15em;
+    float: center;
+}
+
+.sidebar img {
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,108 @@
+/* Import font */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* CSS Flexbox - 2 Column Container(s) */
+/* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+body {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main {
+    padding: 20px;
+    flex: 75%;
+    background-color:#f9f9f9;
+}
+
+.main b {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.main p {
+    text-align: center;
+}
+
+.sidebar {
+    background-color:#f0f0f0;
+    padding: 10px;
+    flex: 25%;
+}
+
+.sidebar p {
+    text-align: center;
+}
+
+h1, h3 {
+    /* font-size: 5em; */
+    padding: 0px;
+    text-align: center;
+    line-height: 100%;
+    /* margin: 10px; */
+    
+}
+
+h2 {
+    text-align: left;
+}
+
+#rss-icon {
+    max-width: 0.5em;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+/* Vertical Navbar */
+/* https://www.w3schools.com/howto/howto_css_vertical_menu.asp */
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+
+#intro {
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 2em;
+}
+
+#face {
+    max-width: 15em;
+    border-radius: 100%;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

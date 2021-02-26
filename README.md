@@ -34,5 +34,12 @@ Modified Code
 Resources
 ==================
 - Gutenburg HTML files: http://www.gutenberg.org/browse/scores/top
-- Background Image: https://www.toptal.com/designers/subtlepatterns/vintage-concrete/
-- Box Shadow: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html
+- Background image: https://www.toptal.com/designers/subtlepatterns/vintage-concrete/
+- Box shadow: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html
+- Importing fonts: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+- 2 column flexbox/container: https://www.w3schools.com/css/css3_flexbox_responsive.asp
+- Vertical navbar: https://www.w3schools.com/howto/howto_css_vertical_menu.asp 
+- Rainbow gradient text: https://stackoverflow.com/a/40558020
+- Center navbar links (referenced more than one of the answers): https://stackoverflow.com/a/50054754
+- Background color for text/highlighted background: https://stackoverflow.com/a/16597371
+- 
