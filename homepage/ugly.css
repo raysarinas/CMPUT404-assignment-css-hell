@@ -39,7 +39,7 @@ body {
 }
 
 .sidebar {
-    background-color:lawngreen;
+    background-color: lawngreen;
     padding: 10px;
     flex: 25%;
 }
@@ -114,7 +114,7 @@ h1 {
 }
 
 img {
-    max-width:15em;
+    max-width: 15em;
     float: center;
 }
 
